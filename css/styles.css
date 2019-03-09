@@ -1,3 +1,50 @@
-img {
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 10px;
+}
+.col-sm { columns: 3 }
+body {
+  color: rgb(65,72,86);
+  font-family: arial;
+  margin: 0px;
+}
+h1 {
+ font-size: 5em;
+ text-align: center;
+ padding: 20px;
+}
+h2 {
+  font-size: 5em;
+ text-align: center;}
 
+img {display: flex; /*allows for fexible placing*/
+  padding: 20px; /*sets padding size on all4 size of element*/
+  margin: 0 auto;
+  border-radius: 130px;
+  height: auto;
+  min-width: 30%;
+ }
+  ol{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10%;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  div {
+  min-height: 5vh;
+  width: 100vw;
+  background color:rgb(255, 0, 0);
+}
+  p{
+  color:rgb(0,100,0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
