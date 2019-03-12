@@ -9,6 +9,7 @@
   <title>A Sustainable Future</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -17,31 +18,30 @@
 <body>
   <div class="header">
   <h1> A Sustainable Future</h1>
-  <p>Living a Sustainably Lifestyle</p>
+  <p>Living a Sustainable Lifestyle</p>
 </div>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-   </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Change in Diet</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="energyreduction.html">Reducing Energy Consumption </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Transportation</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="diet.html">Change in Diet</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="energyreduction.html">Reducing Energy Consumption </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Transport.html">Transportation</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <h1>Energy Reduction</h1>
 
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -58,7 +58,7 @@
     </div>
   </div>
 
-<div>
+<div class="ereduction">
   <h2> Why Reduce Your Energy Consumption ?</h2>
    <p> Reducing your energy consumption, is one of most effective ways of reduction your
       carbon foootprint, and therefore minimising your the impact on the environment. There can also be huge financial savings.
@@ -66,10 +66,10 @@
   <hr>
    <h3> How You Can Reduce Your Energy Consumption- Improving Household Efficiency</h3>
      <p>
-      <ul>
+      <ul class="notnav">
        <li>Insulation
        </li>
-       <li>Energy Saving Technology- Thermostat and Smart meter
+       <li>Energy Saving Technology
        </li>
        <li>Energy Efficent Light Bulbs
        </li>
@@ -82,7 +82,7 @@
   <hr>
   <h4> How You Can Reduce Your Energy Consumption- Changing Household Practises</h4>
   <p>
-   <ul>
+   <ul class="notnav">
     <li>Shorter Shower Times
     </li> Wash Clothes Below 30 Degrees
     <li>Only Boil Kettle With Water Needed

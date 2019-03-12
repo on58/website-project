@@ -4,42 +4,36 @@
   background: #1abc9c;
   color: white;
 }
-.col-sm { columns: 3 }
 
 body {
   color: rgb(65,72,86);
   font-family: arial;
-  margin: 0px;
 }
 h1 {
- font-size: 7em;
+ font-size: 40px;
  text-align: center;
  padding: 20px;
 }
 h2, h3, h4 {
-  font-size: 7em;
+  font-size: 30px;
  text-align: center;}
 
 img {display: flex; /*allows for fexible placing*/
   padding: 20px; /*sets padding size on all4 size of element*/
   margin: 0 auto;
   border-radius: 10px;
-  max-height: 500px;
-  max-width: 1000px;
+  max-height: 400px;
+  max-width: 600px;
  }
   ol{
     list-style: none;
     padding: 0;
-    margin-bottom: 10%;
-    font-size: 2em;
+    margin-bottom: 2%;
+    font-size: 25px;
     display: flex;
     justify-content: space-evenly;
   }
-  div {
-  min-height: 5vh;
-  width: 100vw;
-  background color:rgb(255, 0, 0);
-}
+
   p{
   color:rgb(0,100,0);
   display: flex;
@@ -54,9 +48,27 @@ footer{  padding: 0px;
   background-color:rgb(34,139,34);
   color: white;
 }
-ul{list-style: circle;
+ul.notnav {list-style: circle;
 padding: 0;
 margin-bottom: 10%;
-font-size: 1.5em;
+font-size: 20px;
 display: flex;
 justify-content: space-evenly;}
+
+div.ereduction {
+  font-size: 30px;
+}
+
+/*
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; Animation
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.25);  (150% zoom - Note: if the zoom is too large, it will go outside of the viewport)
+} */
